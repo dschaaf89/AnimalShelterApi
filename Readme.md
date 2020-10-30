@@ -24,11 +24,11 @@
             <img src="https://img.shields.io/github/contributors/dschaaf89/AnimalShelterApi.svg?style=plastic">
         </a>
         ¨
-        <a href="https://github.com/AnimalShelterApi/stargazers">
+        <a href="https://github.com/dschaaf89/AnimalShelterApi/stargazers">
             <img src="https://img.shields.io/github/stars/dschaaf89/AnimalShelterApi.svg?color=yellow&style=plastic">
         </a>
         ¨
-        <a href="https://github.com/AnimalShelterApi/issues">
+        <a href="https://github.com/dschaaf89/AnimalShelterApi/issues">
             <img src="https://img.shields.io/github/issues/dschaaf89/AnimalShelter?style=plastic">
         </a>
         ¨
