@@ -63,7 +63,7 @@ namespace AnimalShelterApi
                     License = new OpenApiLicense
                     {
                         Name = "Use under LICX",
-                        Url = new Uri("http://localhost:4005"),
+                        Url = new Uri("http://localhost:4000"),
                     }
                 });
             });
