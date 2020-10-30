@@ -20,20 +20,20 @@
     </p>
     <!-- Project Shields -->
     <p align="center">
-        <a href="https://github.com/dschaaf89/AnimalSheterApi/graphs/contributors">
-            <img src="https://img.shields.io/github/contributors/dschaaf89/AnimalSheterApi.svg?style=plastic">
+        <a href="https://github.com/dschaaf89/AnimalShelterApi/graphs/contributors">
+            <img src="https://img.shields.io/github/contributors/dschaaf89/AnimalShelterApi.svg?style=plastic">
         </a>
         ¨
-        <a href="https://github.com/AnimalSheterApi/stargazers">
-            <img src="https://img.shields.io/github/stars/dschaaf89/AnimalSheterApi.svg?color=yellow&style=plastic">
+        <a href="https://github.com/AnimalShelterApi/stargazers">
+            <img src="https://img.shields.io/github/stars/dschaaf89/AnimalShelterApi.svg?color=yellow&style=plastic">
         </a>
         ¨
-        <a href="https://github.com/AnimalSheterApi/issues">
+        <a href="https://github.com/AnimalShelterApi/issues">
             <img src="https://img.shields.io/github/issues/dschaaf89/AnimalShelter?style=plastic">
         </a>
         ¨
-        <a href="https://github.com/dschaaf89/AnimalSheterApi/blob/master/LICENSE.txt">
-            <img src="https://img.shields.io/github/license/dschaaf89/AnimalSheterApi?color=orange&style=plastic">
+        <a href="https://github.com/dschaaf89/AnimalShelterApi/blob/master/LICENSE.txt">
+            <img src="https://img.shields.io/github/license/dschaaf89/AnimalShelterApi?color=orange&style=plastic">
         </a>
         ¨
         <a href="https://linkedin.com/in/danielschaaf">
