@@ -172,6 +172,12 @@ In order to be authorized to use the POST, PUT, DELETE functionality of the API,
 
 ![](images/SwaggerUserAuth.jpg)
 
+### Postman Bearer Token Set up to use endpoints
+In order to be authorized to use the POST, PUT, DELETE functionality of the API, please authenticate yourself through Postman.
+After you get your token, got to Authorization tab in postman and click on Type dropdown and scroll down to BearerToken. Enter your Token into the Token space and your good to then use the POST, PUT, DELETE functionality of the API. 
+
+![postman](images/postmanBearerToken.jpg)
+
 ### Note on CORS
 CORS is a W3C standard that allows a server to relax the same-origin policy. It is not a security feature, CORS relaxes security. It allows a server to explicitly allow some cross-origin requests while rejecting others. An API is not safer by allowing CORS.
 For more information or to see how CORS functions, see the [Microsoft documentation](https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-2.2#how-cors).
