@@ -199,11 +199,11 @@ https://localhost:5000/api/animals/1
 {
   "animalId": 1,
   "animalType": "Cat",
-  "breed": "Mancoon",
+  "breed": "Main Coon",
   "animalName": "Roger",
   "age": 3,
   "sex": "Male",
-  "details": "Roger is a Large Orange Mancoon cat that is fixed and shots are current. would be great with a family that has kids."
+  "details": "Roger is a Large Orange Main Coon cat that is fixed and shots are current. would be great with a family that has kids."
 }
 
 ```
@@ -237,11 +237,11 @@ https://localhost:5000/api/animals/1
 {
   "animalId": 1,
   "animalType": "Cat",
-  "breed": "Mancoon",
+  "breed": "Main Coon",
   "animalName": "Roger",
   "age": 3,
   "sex": "Male",
-  "details": "Roger is a Large Orange Mancoon cat that is fixed and shots are current. would be great with a family that has kids."
+  "details": "Roger is a Large Orange Main Coon cat that is fixed and shots are current. would be great with a family that has kids."
 }
 ```
 
@@ -274,11 +274,11 @@ https://localhost:5000/api/reviews?animalType=Cat
 {
   "animalId": 1,
   "animalType": "Cat",
-  "breed": "Mancoon",
+  "breed": "Main Coon",
   "animalName": "Roger",
   "age": 3,
   "sex": "Male",
-  "details": "Roger is a Large Orange Mancoon cat that is fixed and shots are current. would be great with a family that has kids."
+  "details": "Roger is a Large Orange Main Coon cat that is fixed and shots are current. would be great with a family that has kids."
 },
 {
   "animalId": 3,
