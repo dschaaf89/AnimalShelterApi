@@ -36,5 +36,35 @@
             <img src="https://img.shields.io/github/license/dschaaf89/AnimalSheterApi?color=orange&style=plastic">
         </a>
         ¨
+        <a href="https://linkedin.com/in/danielschaaf">
+            <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=2867B2">
+        </a>
     </p>
 </p>
+<p align="center">
+  <small>Initiated 10/30/2020.</small>
+</p>
+<p align="center">
+    <a href="https://github.com/dschaaf89/AnimalShelterApi"><big>Project Docs</big></a> ·
+    <a href="https://github.com/dschaaf89/AnimalShelterApi/issues"><big>Report Bug</big></a> ·
+    <a href="https://github.com/dschaaf89/AnimalShelterApi/issues"><big>Request Feature</big></a>
+</p>
+
+------------------------------
+### <u>Table of Contents</u>
+* <a href="#🌐-about-the-project">About the Project</a>
+    * <a href="#📖-description">Description</a>
+    * <a href="#🦠-known-bugs">Known Bugs</a>
+    * <a href="#🛠-built-with">Built With</a>
+    <!-- * <a href="#🔍-preview">Preview</a> -->
+* <a href="#🏁-getting-started">Getting Started</a>
+    * <a href="#📋-prerequisites">Prerequisites</a>
+    * <a href="#⚙️-setup-and-use">Setup and Use</a>
+* <a href="#🛰️-api-documentation">API Documentation</a>
+* <a href="#🤝-contributors">Auxiliary</a>
+    * <a href="#🤝-contributors">Contributors</a>
+    * <a href="#✉️-contact-and-support">Contact</a>
+    * <a href="#⚖️-license">License</a>
+    * <a href="#🌟-acknowledgements">Acknowledgements</a>
+    
+------------------------------
