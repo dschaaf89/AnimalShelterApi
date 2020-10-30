@@ -117,7 +117,7 @@ There are no Known bugs with the system at this time. if you do find a bug pleas
 
   #### Cloning
 
-  1) Navigate to the [Travel Api Repository here](https://github.com/dschaaf89/AnimalShelterApi).
+  1) Navigate to the [Animal Shelter API Repository here](https://github.com/dschaaf89/AnimalShelterApi).
   2) Click 'Clone or download' to reveal the HTTPS url ending with .git and the 'Download ZIP' option.
   3) Open up your system Terminal or GitBash, navigate to your desktop with the command: `cd Desktop`, or whichever location suits you best.
   4) Clone the repository to your desktop: `$ git clone https://github.com/dschaaf89/AnimalShelterApi.git`
@@ -150,7 +150,7 @@ There are no Known bugs with the system at this time. if you do find a bug pleas
   2) Run the command `dotnet ef database update` to generate the database through Entity Framework Core.
   3) (Optional) To update the database with any changes to the code, run the command `dotnet ef migrations add <MigrationsName>` which will use Entity Framework Core's code-first principle to generate a database update. After, run the previous command `dotnet ef database update` to update the database.
   #### Launch the API
-  1) Navigate to AnimalShelterApi.Solution/AnimalShelterApi directory using the MacOS Terminal or Windows Powershell (e.g. `cd Desktop/TravelApi.Solution/TravelApi`).
+  1) Navigate to AnimalShelterApi.Solution/AnimalShelterApi directory using the MacOS Terminal or Windows Powershell (e.g. `cd Desktop/AnimalShelterApi.Solution/AnimalShelterApi`).
   2) Run the command `dotnet run` to have access to the API in Postman or browser.
 ## 🛰️ API Documentation
 Explore the API endpoints in Postman or a browser. You will not be able to utilize authentication in a browser.
