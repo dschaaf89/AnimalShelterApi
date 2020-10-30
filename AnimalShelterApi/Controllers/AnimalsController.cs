@@ -25,12 +25,16 @@ namespace AnimalShelterApi.Controllers
 
     // GET api/animals
     [HttpGet]
-    public ActionResult<IEnumerable<Animal>> Get(string animalType)
+    public ActionResult<IEnumerable<Animal>> Get(string animalType,string sex )
     {
       var query = _db.Animals.AsQueryable();
       if(animalType != null)
       {
          query = query.Where(entry => entry.AnimalType.ToUpper() == animalType.ToUpper() );
+      }
+      if(sex != null)
+      {
+         query = query.Where(entry => entry.Sex.ToUpper() == sex.ToUpper() );
       }
       return query.ToList();
     }
