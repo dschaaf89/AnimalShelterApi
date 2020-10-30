@@ -57,7 +57,7 @@ namespace AnimalShelterApi.Controllers
     {
       return _db.Animals.FirstOrDefault(entry => entry.AnimalId == id);
     }
-
+    [Authorize]
     // POST api/animals
     [HttpPost]
     public void Post([FromBody] Animal animal)
@@ -65,7 +65,7 @@ namespace AnimalShelterApi.Controllers
       _db.Animals.Add(animal);
       _db.SaveChanges();
     }
-
+    [Authorize]
     // PUT api/animals/5
     [HttpPut("{id}")]
     public void Put(int id, [FromBody] Animal animal)
@@ -74,7 +74,7 @@ namespace AnimalShelterApi.Controllers
       _db.Entry(animal).State = EntityState.Modified;
       _db.SaveChanges();
     }
-
+    [Authorize]
     // DELETE api/animals/5
     [HttpDelete("{id}")]
     public void Delete(int id)
@@ -83,7 +83,7 @@ namespace AnimalShelterApi.Controllers
       _db.Animals.Remove(animalToDelete);
       _db.SaveChanges();
     }
-
+    [Authorize]
     //Random api/animals/random
     [HttpGet("random")]
     public ActionResult<Animal> GetRandom()
