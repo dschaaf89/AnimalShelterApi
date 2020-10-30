@@ -25,9 +25,14 @@ namespace AnimalShelterApi.Controllers
 
     // GET api/animals
     [HttpGet]
-    public ActionResult<IEnumerable<Animal>> Get()
+    public ActionResult<IEnumerable<Animal>> Get(string animalType)
     {
-      return _db.Animals.ToList();
+      var query = _db.Animals.AsQueryable();
+      if(animalType != null)
+      {
+         query = query.Where(entry => entry.AnimalType.ToUpper() == animalType.ToUpper() );
+      }
+      return query.ToList();
     }
 
     // GET api/animals/5
@@ -67,10 +72,10 @@ namespace AnimalShelterApi.Controllers
     [HttpGet("random")]
     public ActionResult<Animal> GetRandom()
     {
-        List<Animal> allAnimals = _db.Animals.ToList();
-        var random = new Random();
-        int temp = random.Next(0,allAnimals.Count()-1);
-        return allAnimals[temp];
+      List<Animal> allAnimals = _db.Animals.ToList();
+      var random = new Random();
+      int temp = random.Next(0, allAnimals.Count() - 1);
+      return allAnimals[temp];
     }
   }
 }
