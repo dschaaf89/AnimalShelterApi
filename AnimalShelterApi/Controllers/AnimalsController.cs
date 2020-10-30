@@ -25,7 +25,7 @@ namespace AnimalShelterApi.Controllers
 
     // GET api/animals
     [HttpGet]
-    public ActionResult<IEnumerable<Animal>> Get(string animalType,string sex )
+    public ActionResult<IEnumerable<Animal>> Get(string animalType,string sex,int age )
     {
       var query = _db.Animals.AsQueryable();
       if(animalType != null)
@@ -36,6 +36,18 @@ namespace AnimalShelterApi.Controllers
       {
          query = query.Where(entry => entry.Sex.ToUpper() == sex.ToUpper() );
       }
+      if( age != 0)
+      {
+        if(age>0&&age<=2)
+      {
+         query = query.Where(entry => entry.Age <= age );
+      }
+        else
+        {
+            query = query.Where(entry => entry.Age >= age );
+        }
+      }
+
       return query.ToList();
     }
 
